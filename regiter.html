@@ -1,0 +1,77 @@
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Register Page </title>  
+<style>  
+
+Body {  
+    font-family: 'Teko', sans-serif;
+  background-image:url("pexels-setu-chhaya-5690148.jpg");
+
+background-repeat:no-repeat;
+
+background-size:cover;
+}  
+button {   
+    background-color: rgba(0, 0, 0, 0.6);   
+       width: 100%;  
+        color:rgb(255, 255, 255);   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        border-radius: 20px; 
+         }   
+ 
+ input[type=text], input[type=password], input[type=number] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+    padding: 25px;   
+        background-color: rgba(255,255,255,0.2);   
+        width: 26%;
+        margin-left: 35%;
+        height: 69%; 
+        border-radius: 15px 50px;
+    } 
+    a{
+        text-decoration: none;
+        color: aquamarine
+    }  
+</style>   
+</head>    
+<body><div style="display: flex;justify-content:center"><div style="border: 4px double rgb(244, 243, 241) ;width: max-content; display: block; border-radius: 30px;padding-left: -20%;padding-right: -20%;">  
+    <center> <h1>Register</h1> </center>   
+    <form>  
+        <div class="container">  
+            <label style="color:white ;">Mobile No. : </label>   
+            <input type="number" placeholder="Enter mobile no." name="mobile" required> 
+            <label style="color:white ;">Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label style="color:white ;">Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <label style="color:white ;">Confirm Password : </label>   
+            <input type="password" placeholder="Re-enter Password" name="confirmpassword" required>  
+            <button type="submit">Login</button>   
+            <center><button type="button" class="cancelbtn"> <a href="homepage.html">Cancel</a></button></center>
+            <input type="checkbox" checked="checked"> Remember me>   
+            <br>Already have an account? <a href="login.html"> Login </a>   
+        </div>   
+    </form>     
+</body>     
+</html>
